@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
           
           <ModalVideo
-            thumb="/images/ceo.png"
+            thumb="../../public/images/ceo.png"
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
