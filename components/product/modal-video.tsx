@@ -4,7 +4,7 @@ import { useState, useRef, Fragment } from 'react'
 import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
-import ModalImage from '../../public/images/ceo.png'
+import ModalImage from '../../public/images/ceo.jpg'
 
 interface ModalVideoProps {
   thumb: string
