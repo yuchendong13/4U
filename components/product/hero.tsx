@@ -1,4 +1,3 @@
-import VideoThumb from '../../public/images/ceo.png'
 import ModalVideo from '@/components/product/modal-video'
 
 export default function Hero() {
@@ -35,9 +34,9 @@ export default function Hero() {
               </div> */}
             </div>
           </div>
-
+          
           <ModalVideo
-            thumb={VideoThumb}
+            thumb="/images/ceo.png"
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
